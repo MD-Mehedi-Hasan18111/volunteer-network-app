@@ -1,0 +1,9 @@
+.eventCard {
+  width: 75%;
+  padding: 10px;
+}
+
+.eventCard:hover {
+  box-shadow: 0 10px 20px darkgray;
+  cursor: pointer;
+}

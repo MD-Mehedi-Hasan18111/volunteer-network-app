@@ -1,0 +1,19 @@
+.register-area {
+  width: 500px;
+  border: 1px solid darkgray;
+}
+.form input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+
+@media only screen and (max-width: 414px) {
+  .register-area {
+    width: 100%;
+  }
+}

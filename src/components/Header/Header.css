@@ -1,0 +1,22 @@
+.header {
+  padding: 20px 50px;
+}
+
+.navigation a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #000;
+  font-weight: 700;
+  padding: 8px 15px;
+  font-size: 18px;
+}
+
+.navigation .selected {
+  background-color: #01080f93;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.banner {
+  margin: 220px 0;
+}
