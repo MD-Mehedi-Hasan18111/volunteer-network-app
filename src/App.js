@@ -10,6 +10,7 @@ import RegisteredEvents from './components/RegisteredEvents/RegisteredEvents';
 import Donation from './components/Donation/Donation';
 import Blog from './components/Blog/Blog';
 import AdminPannel from './components/AdminPannel/AdminPannel';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/admin">
             <AdminPannel />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
           <PrivateRoute path="/register">
             <RegisterEvent />
