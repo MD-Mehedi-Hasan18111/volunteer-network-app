@@ -23,7 +23,7 @@ const RegisterEvent = () => {
         const RegVolunteerService = {nameValue, emailValue, dateValue, descriptionValue, organizeValue};
         // console.log(RegVolunteerService);
 
-        fetch('http://localhost:5000/allVolunteer', {
+        fetch('https://calm-cove-64271.herokuapp.com/allVolunteer', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

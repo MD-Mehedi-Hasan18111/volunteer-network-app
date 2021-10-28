@@ -21,7 +21,7 @@ const AddEvent = () => {
             image: imgRef.current.value
         }
 
-        fetch('http://localhost:5000/eventPost', {
+        fetch('https://calm-cove-64271.herokuapp.com/eventPost', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

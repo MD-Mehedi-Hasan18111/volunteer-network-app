@@ -6,7 +6,7 @@ const RegisterList = () => {
     const [volunteers, setVolunteers] = useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:5000/allVolunteers')
+        fetch('https://calm-cove-64271.herokuapp.com/allVolunteers')
         .then(res => res.json())
         .then(data => setVolunteers(data))
     }, [volunteers])

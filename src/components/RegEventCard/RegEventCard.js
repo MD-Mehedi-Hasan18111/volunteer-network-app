@@ -6,7 +6,7 @@ const RegEventCard = (props) => {
     const {_id, nameValue, dateValue, descriptionValue, organizeValue} = props.event;
 
     const deleteEvent = () =>{
-        fetch(`http://localhost:5000/regEvents/${_id}`, {
+        fetch(`https://calm-cove-64271.herokuapp.com/regEvents/${_id}`, {
             method: 'DELETE'
         })
         .then(res => res.json())

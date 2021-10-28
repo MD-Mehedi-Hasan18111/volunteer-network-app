@@ -12,7 +12,7 @@ const RegisteredEvents = () => {
     const [events, setEvents] = useState([]);
 
     useEffect(() =>{
-        fetch(`http://localhost:5000/regEvents/${user.email}`)
+        fetch(`https://calm-cove-64271.herokuapp.com/regEvents/${user.email}`)
         .then(res => res.json())
         .then(data => setEvents(data))
     }, [events])
