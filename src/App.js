@@ -36,9 +36,9 @@ function App() {
           <Route path="/admin">
             <AdminPannel />
           </Route>
-          <Route path="*">
+          {/* <Route path="*">
             <NotFound />
-          </Route>
+          </Route> */}
           <PrivateRoute path="/register">
             <RegisterEvent />
           </PrivateRoute>
